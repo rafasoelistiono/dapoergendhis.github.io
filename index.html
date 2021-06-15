@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href=".\images\web.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+        <a href="#" id="logo" class="logo">D'Gendhis</a>
+        <ul>
+            <li><a href="#service" class="y" onclick="toggle()">Service</a></li>
+            <li><a href="#product" class="y" onclick="toggle()">Product</a></li>
+            <li><a href="#contact" class="y" onclick="toggle()">Order</a></li>
+            <li><a href="#testimonials" class="y" onclick="toggle()">Testimonials</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div class="info-home">
+            <h2>Grab Your <br>Food Now</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Sit ducimus nihil suscipit a ipsa delectus quas beatae, unde est ,</p>
+            <a href="#">Order Now</a>
+        </div>
+        <div class="container-img">
+            <img src="./images/img1.svg" alt="food">
+        </div>
+    </section>
+    <section id="service">
+        <div class="info-product">
+            <div class="container-info-product">
+                <h2>Our Service</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas!
+                </p>
+            </div>
+        </div>
+        <div class="container-service reveal">
+            <div class="box">
+                <div class="icon"><i class='bx bx-dish'></i></div>
+                <div class="content">
+                    <h3>Service Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum cumque fugit fugiat unde quidem a praesentium voluptate, aperiam impedit qui repudiandae aspernatur quis</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class='bx bx-dollar-circle'></i></div>
+                <div class="content">
+                    <h3>Service Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum cumque fugit fugiat unde quidem a praesentium voluptate, aperiam impedit qui repudiandae aspernatur quis</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class='bx bx-package'></i></div>
+                <div class="content">
+                    <h3>Service Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum cumque fugit fugiat unde quidem a praesentium voluptate, aperiam impedit qui repudiandae aspernatur quis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product">
+        <div class="info-product">
+            <div class="container-info-product">
+                <h2>Our Product</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas!
+                </p>
+            </div>
+        </div>
+        <div class="testimonials reveal">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                        </div>
+                        <div class="detail">
+                            <div class="judul">
+                                <h2>my product</h2>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aspernatur.</p>
+                            </div>
+                            <div class="harga">
+                                <p>23k</p>
+                            </div>
+                            <div class="option">
+                                <div class="icon"><i class='bx bxs-shopping-bags'></i></div>
+                                <div class="icon"><i class='bx bx-shocked' ></i></div>
+                                <div class="icon"><i class='bx bxs-message-check' ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                        </div>
+                        <div class="detail">
+                            <div class="judul">
+                                <h2>my product</h2>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aspernatur.</p>
+                            </div>
+                            <div class="harga">
+                                <p>23k</p>
+                            </div>
+                            <div class="option">
+                                <div class="icon"><i class='bx bxs-shopping-bags'></i></div>
+                                <div class="icon"><i class='bx bx-shocked' ></i></div>
+                                <div class="icon"><i class='bx bxs-message-check' ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                        </div>
+                        <div class="detail">
+                            <div class="judul">
+                                <h2>my product</h2>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aspernatur.</p>
+                            </div>
+                            <div class="harga">
+                                <p>23k</p>
+                            </div>
+                            <div class="option">
+                                <div class="icon"><i class='bx bxs-shopping-bags'></i></div>
+                                <div class="icon"><i class='bx bx-shocked' ></i></div>
+                                <div class="icon"><i class='bx bxs-message-check' ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                        </div>
+                        <div class="detail">
+                            <div class="judul">
+                                <h2>my product</h2>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aspernatur.</p>
+                            </div>
+                            <div class="harga">
+                                <p>23k</p>
+                            </div>
+                            <div class="option">
+                                <div class="icon"><i class='bx bxs-shopping-bags'></i></div>
+                                <div class="icon"><i class='bx bx-shocked' ></i></div>
+                                <div class="icon"><i class='bx bxs-message-check' ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="info-product">
+            <div class="container-info-product">
+                <h2>Our Contact</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas!
+                </p>
+            </div>
+        </div>
+        <div class="container-contact reveal">
+            <div class="container-form">
+                <div class="container">
+                    <form action="https://formspree.io/f/mrgrkqlk" method="POST" id="my-form">
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit" id="my-form-button">Submit</button>
+                    </form>
+                </div>
+                <p id="my-form-status"></p>
+            </div>
+            <div class="img-contact">
+                <img src="./images/undraw_online_transactions_02ka.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="info-product">
+            <div class="container-info-product">
+                <h2>Our Testimonials</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas!
+                </p>
+            </div>
+        </div>
+        <div class="testimonials reveal">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="content">
+                                <div class="logo"><i class='bx bxs-quote-right'></i></div>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptate nulla? Provident maxime, aperiam deleniti dolores assumenda sit cupiditate iusto.</p>
+                                <div class="details">
+                                  <h2>Someone Famous<br><span>website design</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="content">
+                                <div class="logo"><i class='bx bxs-quote-right'></i></div>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptate nulla? Provident maxime, aperiam deleniti dolores assumenda sit cupiditate iusto.</p>
+                                <div class="details">
+                                  <h2>Someone Famous<br><span>website design</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="content">
+                                <div class="logo"><i class='bx bxs-quote-right'></i></div>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptate nulla? Provident maxime, aperiam deleniti dolores assumenda sit cupiditate iusto.</p>
+                                <div class="details">
+                                  <h2>Someone Famous<br><span>website design</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="content">
+                                <div class="logo"><i class='bx bxs-quote-right'></i></div>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptate nulla? Provident maxime, aperiam deleniti dolores assumenda sit cupiditate iusto.</p>
+                                <div class="details">
+                                  <h2>Someone Famous<br><span>website design</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container">
+            <h1 class="footer__title">Dapoer Gendhis</h1>
+            <div class="footer__description">
+                <p>rafasoelistiono@gmail.com</p>
+                <p>Jakarta,Indonesia</p>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://github.com/rafasoelistiono" class="footer__link"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/rafasoelistiono/" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                <a href="linkedin.com/in/rafa-rally-soelistiono-2107861b8" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by Rafa - 2020</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+    <script>
+        var form = document.getElementById("my-form");
+        
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+          }).then(response => {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+</html>
